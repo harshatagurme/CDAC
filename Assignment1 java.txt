@@ -1,0 +1,218 @@
+q1...package Assign1;
+
+import java.util.Scanner;
+
+public class NumericalGrade {
+
+	public static void main(String[] args)
+	{
+		
+		Scanner sc = new Scanner (System.in);
+		System.out.println("enter a marks");
+		int marks = sc.nextInt();
+		if(marks>90)
+		{
+			System.out.println("grade a");
+		}
+		else if(marks<90)
+		{
+			System.out.println("grade b");
+		}
+		else if(marks<80)
+		{
+			System.out.println("grade c");
+		}
+		else if(marks<70)
+		{
+			System.out.println("grade d");
+		}
+		else
+		{
+			System.out.println("grade f");
+		}
+	}
+			
+		
+
+	
+
+}
+output===enter a marks
+56
+grade b
+
+
+
+q2...package Assign1;
+
+import java.util.Scanner;
+
+public class LeapYear {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		System.out.println("enter a year");
+		int year = sc.nextInt();
+		if ((year%4==0)&& (year%100!=0)|| (year%400==0))
+		{
+			System.out.println("it is a leap year");
+		}
+		else
+		{
+			System.out.println("it is not leap year");
+		}
+
+	}
+
+}
+output===enter a year
+2024
+it is a leap year
+
+
+
+q3...package Assign1;
+
+import java.util.Scanner;
+
+public class VowelConsonent {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter a character");
+		Character ch=sc.next().charAt(0);
+		if (ch =='a' || ch == 'e' || ch =='i' || ch == 'o' || ch == 'u')
+		{
+			System.out.println("it is vowel");
+		}
+		else
+		{
+			System.out.println("it is consonent");
+		}
+
+	}
+
+}
+output===
+enter a character
+a
+it is vowel
+
+
+q4...import java.util.Scanner;
+
+public class WeekDays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner (System.in);
+		System.out.println("enter a week number");
+		int week = sc.nextInt();
+		switch(week)
+		{
+		case 1: System.out.println("monday");
+		break;
+		case 2: System.out.println("tuesday");
+		break;
+		case 3: System.out.println("wednesday");
+		break;
+		case 4: System.out.println("thursday");
+		break;
+		case 5: System.out.println("friday");
+		break;
+		case 6: System.out.println("saturday");
+		break;
+		case 7: System.out.println("sunday");
+		break;
+		default:System.out.println("invalid input");
+			
+		}
+
+	}
+
+}
+output===enter a week number
+3
+wednesday
+
+
+q5...package Assign1;
+
+import java.util.Scanner;
+
+public class Calculator {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner (System.in);
+		System.out.println("enter a choice");
+		int choice =sc.nextInt();
+		
+		System.out.println("enter a number1");
+		int num1=sc.nextInt();
+		System.out.println("enter a number2");
+		int num2=sc.nextInt();
+		
+		switch (choice)
+		{
+		case 1: System.out.println("addition: "+(num1+num2));
+		break;
+		case 2: System.out.println("addition: "+(num1-num2));
+		break;
+		case 3: System.out.println("addition: "+(num1*num2));
+		break;
+		case 4: System.out.println("addition: "+(num1%num2));
+		break;
+		
+		}
+		
+	}
+
+}
+output===enter a choice
+1
+enter a number1
+10
+enter a number2
+10
+addition: 20
+
+
+
+q6...package Assign1;
+
+import java.util.Scanner;
+
+public class BmiCalculate {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner (System.in);
+		System.out.println("enter your weight");
+		double weight=sc.nextDouble();
+		System.out.println("enter your height");
+		double height=sc.nextDouble();
+		double bmi=weight/(height * height);
+		System.out.println("BMI is:" +bmi);
+		if((bmi>18.5)&&(bmi<24.9))
+		{
+			System.out.println("you are normal weight");
+		}
+		else if(bmi<18.5)
+		{
+			System.out.println("you are underweight");
+		}
+		else
+		{
+			System.out.println("you are overweight");
+		}
+		
+
+	}
+
+}
+output===enter your weight
+70
+enter your height
+6.9
+BMI is:1.4702793530770843
+you are underweight
+
