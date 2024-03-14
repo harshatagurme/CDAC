@@ -1,0 +1,73 @@
+Q1..  package Assign3;
+
+public class Narrowing {
+
+	public static void main(String[] args) {
+		double num1=400;
+		int num2=(int)num1;
+		System.out.println("double:" +num1);
+		System.out.println("Integer :"+num2);
+		
+	}
+
+}
+output ==double:400.0
+Integer :400
+
+Q2.. package Assign3;
+
+public class Wide3 {
+	public static void main(String[] args) {
+		int a=40;
+		double b=3.45;
+		float c=2.22f;
+		double d=(double)a;
+		double e=a+b+c;
+		System.out.println(e);
+	}
+
+}
+
+output== 45.670000028
+
+Q3..  package Assign3;
+
+public class Widening {
+
+	public static void main(String[] args) {
+		int i=150;
+		double d=i;
+		System.out.println("i :" +i);
+		System.out.println("d :"+d);
+		
+
+
+	}
+
+}
+
+output== i :150
+d :150.0
+
+Q4... package Assign3;
+
+public class WideningC {
+
+	public static void main(String[] args) {
+		int a= 50;	
+		double d = (double)a;
+		float f= (float)a;
+		String str=Integer.toString(a);
+		System.out.println("integer value is:"+a);
+		System.out.println("integer value is:"+d);
+		System.out.println("integer value is:"+f);
+		System.out.println("integer value is:"+str);
+
+	}
+
+}
+output == integer value is:50
+integer value is:50.0
+integer value is:50.0
+integer value is:50
+
