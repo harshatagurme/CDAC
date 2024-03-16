@@ -1,0 +1,130 @@
+q1....package Assign4;
+
+public class Student 
+{
+	String name;
+	String education;
+	float percentage;
+	String branch;
+	int yop;
+	
+	public static void main(String[] args) {
+		Student a=new Student();
+		a.name= "harshata";
+		a.education= "BE";
+		a.percentage= 89.2f;
+		a.branch= "instrumentation";
+		a.yop= 2022;
+		System.out.println("name: " +a.name);
+		System.out.println("education: " +a.education);
+		System.out.println("percentage: " +a.percentage);
+		System.out.println("branch: " +a.branch);
+		System.out.println("yop: " +a.yop);
+		
+		
+	}
+}
+output===name: harshata
+education: BE
+percentage: 89.2
+branch: instrumentation
+yop: 2022
+
+
+q3.........package Assign4;
+
+public class Employee {
+	int empid;
+	float salary;
+	String name;
+	String designation;
+	
+	public static void e1(int empid,float salary)
+	{
+		System.out.print("empid: "+empid);
+		System.out.print(" salary: "+salary);
+		System.out.println();
+		
+	}
+	public static void e1(int empid,float salary,String name)
+	{
+		System.out.print("empid: "+empid);
+		System.out.print(" salary: "+salary);
+		System.out.print(" name: "+name);
+		System.out.println();
+		
+	}
+	public static void e1(int empid, float salary,String name,String designation)
+	{
+		System.out.print("empid: "+empid);
+		System.out.print(" salary: "+salary);
+		System.out.print(" name: "+name);
+		System.out.print(" designation: "+designation);
+		
+		
+	}
+
+	public static void main(String[] args) {
+		e1(1,67.78f);
+		e1(2,40.00f,"harshata");
+		e1(3,50.45f,"divya","analyst");
+		
+
+	}
+
+}
+
+output===empid: 1 salary: 67.78
+empid: 2 salary: 40.0 name: harshata
+empid: 3 salary: 50.45 name: divya designation: analyst
+
+q2.....package Assign4;
+
+public class Vehicle1 {
+	String brand;
+	String color;
+	int speed;
+	float price;
+	
+	public void displayDetails(String brand,int speed)
+	{
+	System.out.println("----vehicle 1---");
+	System.out.print("brand:"+brand);
+	System.out.print("speed:"+speed);
+	System.out.println();
+	
+	}
+	public void displayDetails(String color, int speed, float price)
+	{
+		System.out.println("---vehicle 2---");
+		System.out.print("color:"+color);
+		System.out.print("speed:"+speed);
+		System.out.print("price:"+price);
+		
+		
+	}
+}
+   package Assign4;
+import Assign4.Vehicle1;
+
+public class VehicleMain {
+
+	public  static void main(String[] args) {
+		{
+			Vehicle1 v=new Vehicle1();
+			v.displayDetails("royal enfield", 300);
+			v.displayDetails("red", 200, 70.00f);
+			
+
+		}
+		
+
+	}
+
+}
+output====----vehicle 1---
+brand:royal enfieldspeed:300
+---vehicle 2---
+color:redspeed:200price:70.0
+
+
