@@ -1,0 +1,396 @@
+                            ************* Pattern Programming **************
+Q3...
+package Assignment;
+
+public class Q3 {
+
+	public static void main(String[] args) {
+		int count=0;
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				count=count+1;
+				System.out.print(count);
+			}
+			System.out.println();
+		}
+
+	}
+
+}
+
+
+Q7...
+package Assignment;
+
+public class Q7 {
+
+	public static void main(String[] args) {
+		for(int i=1;i<=5;i++)
+		{
+			int num;
+			if(i%2==0)
+			{
+				num=0;
+				System.out.print(num);
+			}
+			else
+			{
+				num=1;
+				System.out.print(num);
+			}
+			
+		
+		for(int j=1;j<=5;j++)
+		{
+			if(num==1)
+			{
+				num=0;
+			}
+			else
+			{
+				num=1;
+			}
+			System.out.print(num);
+		}
+		System.out.println();
+
+	}
+	}
+}
+
+
+Q6...
+package Assignment;
+
+public class Q6 {
+
+	public static void main(String[] args) {
+		
+       for(int i=1;i<=5;i++)
+       {
+    	   for(int j=i;j>=1;j--)
+    	   {
+    		 System.out.print(j);  
+    	   }
+    	   System.out.println();
+       }
+	}
+
+}
+
+
+Q8...
+package Assignment;
+
+public class Q8 {
+
+	public static void main(String[] args) {
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				if(j%2==0)
+				{
+					System.out.print(0);
+				}
+				else
+				{
+					System.out.print(1);
+				}
+			}
+				System.out.println();
+				
+			
+		}
+	}
+
+}
+
+
+ Q10....
+package Assignment;
+
+public class Q10 {
+
+	public static void main(String[] args) {
+		
+		for( int i=1,p='A';i<=6;i++,p++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				
+				System.out.print((char)p);
+			}
+			System.out.println();
+
+
+	}
+
+}
+}
+
+
+Q11...
+package Assignment;
+
+public class Q11 {
+
+	public static void main(String[] args) {
+		for( int i=1;i<=6;i++)
+		{
+			for(int j=6,p='A';j>=i;j++,p++)
+			{
+				System.out.print((char)p);
+			}
+			System.out.println();
+		}
+		for( int i=1,p='A';i<=6;i++,p++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print((char)p);
+			}
+			System.out.println();
+		}
+
+	}
+
+}
+
+
+Q12...
+package Assignment;
+
+public class Q12 {
+
+	public static void main(String[] args) {
+		for(int i=1;i<=6;i++)
+		{
+			for(int j=6;j>=i;j--)
+			{
+				System.out.print(" ");
+			}
+			for(int k=1,p='A';k<=i;k++,p++)
+			{
+				System.out.print((char)p+" ");
+				
+			}
+			System.out.println();
+		}
+
+	}
+
+}
+
+
+Q17...
+package Assignment;
+
+public class Q17 {
+
+	public static void main(String[] args) {
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=4;j>=i;j--)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+
+	}
+
+}
+
+
+Q18...
+
+package Assignment;
+
+public class Q18 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+for(int i=1;i>=7;i--)
+{
+	for(int j=7;j>=i;j--)
+	{
+		System.out.print(j);
+	}
+	System.out.println();
+}
+	}
+
+}
+
+
+q19..
+package Assignment;
+
+public class Q19 {
+	
+
+		public static void main(String[] args) {
+			
+			int odd=1;
+			for(int i =1;i<=7;i++) {
+				int k=0;
+				for(int j=1;j<=odd;j++) {
+					if(j<=i)
+						k=k+1;
+					else
+						k=k-1;
+					System.out.print(k);
+				}
+				System.out.println();
+				odd=odd+2;
+			}
+
+		}
+
+	}
+
+
+Q21....
+package Assignment;
+
+public class Q21 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int i=1;i<=7;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				if(j%2==0)
+				{
+					System.out.print(0);
+				}
+				else
+				{
+					System.out.print(1);
+				}
+			}
+				System.out.println();
+				
+			
+		}
+
+	}
+
+}
+
+
+Q22...
+package Assignment;
+
+public class Q22 {
+	public static void main(String[] args) {
+		 for(int i=1;i<=7;i++) {
+			 for(int j=1;j<=7-i;j++) {
+				 System.out.print(1);
+			 }
+			 for(int j=1;j<=i;j++) {
+				 System.out.print(i);
+			 }
+			 System.out.println();
+		
+
+		}
+
+
+
+}
+}
+
+
+Q23...
+package Assignment;
+
+public class Q23 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int i=1;i<=7;i++)
+		{
+			int num=0;
+			if(i%2==0)
+			{
+				num=0;
+			System.out.print(num);
+			}
+			else
+			{
+				num=1;
+				System.out.print(num);
+			}
+			for(int j=1;j<=5;j++)
+			{
+				if(num==1) {
+					num=0;
+				}
+			
+			else
+			{
+				num=1;
+			}
+				System.out.print(num);
+				
+			}
+			System.out.println();
+		}
+
+	}
+
+}
+
+
+Q16...
+package Assignment;
+
+public class PattChristmas {
+
+	public static void main(String[] args) {
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=5;j>=i;j--)
+			{
+				System.out.print(" ");
+			}
+			for(int k=1;k<=i;k++)
+			{
+				System.out.print(" *");
+			}
+			System.out.println();
+		}
+		for(int i=3;i<=6;i++)
+		{
+		   for(int j=5;j>=i;j--)
+		   {
+			   System.out.print(" ");
+		   }
+		   for(int k=1;k<=i;k++)
+		   {
+			   System.out.print(" *");
+		   }
+		   System.out.println();
+		}
+		for(int i=3;i<=6;i++)
+		{
+		   for(int j=5;j>=i;j--)
+		   {
+			   System.out.print(" ");
+		   }
+
+
+

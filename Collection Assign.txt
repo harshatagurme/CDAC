@@ -1,0 +1,477 @@
+Q1...
+package javaAssignment;
+
+import java.util.ArrayList;
+
+public class Program1 {
+
+	public static void main(String[] args) {
+		ArrayList<String> list=new ArrayList<>();
+		list.add("purple");
+		list.add("black");
+		list.add("white");
+		list.add("grey");
+		list.add("peach");
+		System.out.println(list);
+	}
+
+}
+
+
+Q2...
+package javaAssignment;
+
+import java.util.ArrayList;
+
+public class Program2 {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> list=new ArrayList<>();
+		list.add(20);
+		list.add(30);
+		list.add(40);
+		list.add(50);
+		System.out.println(list);
+		list.add(0,10);
+		System.out.println(list);
+
+	}
+
+}
+
+
+Q3...
+package javaAssignment;
+
+import java.util.ArrayList;
+
+public class Program3 {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> list=new ArrayList<>();
+		list.add(20);
+		list.add(30);
+		list.add(40);
+		list.add(50);
+		System.out.println(list);
+		list.add(0,10);
+		System.out.println(list);
+		list.remove(3);
+		System.out.println(list);
+	}
+
+}
+
+
+Q4...
+package javaAssignment;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+
+public class Program4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Integer> list=new ArrayList<>();
+		list.add(20);
+		list.add(30);
+		list.add(50);
+		list.add(60);
+		list.add(10);
+		System.out.println(list);
+		Collections.sort(list);
+		System.out.println(list);
+		
+
+Q5...
+package javaAssignment;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Program5 {
+
+	public static void main(String[] args) {
+    ArrayList<String> list=new ArrayList<>();
+    list.add("mango");
+    list.add("banana");
+    list.add("apple");
+    list.add("chiku");
+    System.out.println(list);
+  Collections.reverse(list);
+    System.out.println(list);
+    
+	}
+
+}
+
+
+Q6...
+package javaAssignment;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Program6 {
+
+	public static void main(String[] args) {
+		ArrayList<String> list=new ArrayList<>();
+	    list.add("mango");
+	    list.add("banana");
+	    list.add("apple");
+	    list.add("chiku");
+	    System.out.println(list);
+	    Collections.swap(list, 1, 2);
+	    System.out.println(list);
+	}
+
+}
+
+
+Q7...
+package javaAssignment;
+
+import java.util.ArrayList;
+
+public class Program7 {
+
+	public static void main(String[] args) {
+		ArrayList<String> list=new ArrayList<>();
+	    list.add("mango");
+	    list.add("banana");
+	    list.add("apple");
+	    list.add("chiku");
+	    System.out.println(list);
+	    list.add(2,"watermelon");
+	    System.out.println(list);
+	    
+	}
+
+}
+
+
+Q8...
+package javaAssignment;
+
+import java.util.ArrayList;
+
+public class Program8 {
+
+	public static void main(String[] args) {
+		ArrayList<String> list=new ArrayList<>();
+	    list.add("mango");
+	    list.add("banana");
+	    list.add("apple");
+	    list.add("chiku");
+	    list.add("pomegranate");
+	    list.add("orange");
+	    System.out.println(list);
+	   
+
+	}
+
+}
+
+
+Q9...
+package javaAssignment;
+
+import java.util.ArrayList;
+
+public class Program9 {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> list=new ArrayList<>();
+		list.add(100);
+		list.add(200);
+		list.add(300);
+		list.add(400);
+		list.add(500);
+		System.out.println(list);
+		list.add(3,350);
+		System.out.println(list);
+		
+
+	}
+
+}
+
+
+Q10...
+package javaAssignment;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+public class Program10 {
+
+	public static void main(String[] args) {
+		LinkedList<Integer> list=new LinkedList<>();
+		list.add(100);
+		list.add(200);
+		list.add(300);
+		list.add(400);
+		list.add(500);
+		System.out.println(list);
+		list.addFirst(99);
+		list.addLast(101);
+		System.out.println(list);
+	}
+
+}
+
+
+Q11...
+package javaAssignment;
+
+import java.util.LinkedList;
+
+public class Program11 {
+
+	public static void main(String[] args) {
+			LinkedList<Integer> list=new LinkedList<>();
+			list.add(100);
+			list.add(200);
+			list.add(300);
+			list.add(400);
+			list.add(500);
+			System.out.println(list);
+			for(int i=0;i<list.size();i++)
+			{
+				System.out.println("element at index "+i+" :"+list.get(i));
+			}
+
+	}
+
+}
+
+
+Q12...
+package javaAssignment;
+
+import java.util.LinkedList;
+
+public class Program12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedList<Integer> list=new LinkedList<>();
+		list.add(100);
+		list.add(200);
+		list.add(300);
+		list.add(400);
+		list.add(500);
+		System.out.println(list);
+		if(list.contains(300))
+		{
+			System.out.println("element exist");
+		}else
+		{
+			System.out.println("element not exit");
+		}
+	}
+
+}
+
+
+Q13...
+package javaAssignment;
+
+import java.util.LinkedList;
+
+public class program13 {
+
+	public static void main(String[] args) {
+		LinkedList<Integer> list1=new LinkedList<>();
+		list1.add(100);
+		list1.add(200);
+		list1.add(300);
+		list1.add(400);
+		list1.add(500);
+		System.out.println(list1);
+		
+		LinkedList<Integer> list=new LinkedList<>();
+		list.add(233);
+		list.add(256);
+		list.add(378);
+		list.add(445);
+		list.add(508);
+		System.out.println(list);
+		
+		LinkedList<Integer> list2=new LinkedList<>();
+		for(int e: list1)
+			//list2.add(list.contains(e)? "yes" : "no");
+		System.out.println(list2);
+		
+	}
+
+}
+
+
+Q14...
+package javaAssignment;
+
+import java.util.LinkedList;
+
+public class Program14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedList<Integer> list1=new LinkedList<>();
+		list1.add(100);
+		list1.add(200);
+		list1.add(300);
+		list1.add(400);
+		list1.add(500);
+		System.out.println(list1);
+		list1.set(0, 99);
+		System.out.println(list1);
+
+	}
+
+}
+
+
+Q15...
+Q16...
+package javaAssignment;
+import java .util.*;
+
+public class Program16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashSet<Integer> set=new HashSet<>();
+		set.add(10);
+		set.add(20);
+		set.add(30);
+		set.add(40);
+		set.add(50);
+		System.out.println(set);
+		set.removeAll(set);
+		System.out.println(set);
+		
+			System.out.println(set.isEmpty()?"true" :"false");
+		
+	}
+		
+		
+
+	}
+
+
+
+Q17...
+package javaAssignment;
+import java.util.Arrays;
+
+import java.util.HashSet;
+
+public class program17 {
+
+	public static void main(String[] args) {
+		HashSet<Integer> set=new HashSet<>();
+		set.add(10);
+		set.add(20);
+		set.add(30);
+		set.add(40);
+		set.add(50);
+		System.out.println(set);
+		int [] arr=new int[set.size()];
+//		set.toArray();
+//		for(int i=0;i<arr.length;i++)
+//		{
+//			System.out.println(arr[i]);
+//		}
+		for(int element : set)
+		{
+			System.out.println(element);
+		}
+		
+
+	}
+
+}
+
+Q18...
+Q19...
+package javaAssignment;
+import java.util.*;
+
+public class Program19 {
+
+	public static void main(String[] args) {
+		TreeSet<String> set =new TreeSet<>();
+		set.add("red");
+		set.add("green");
+		set.add("yellow");
+		set.add("blue");
+		set.add("white");
+		System.out.println(set);
+		
+		
+
+	}
+
+}
+
+Q20...
+
+package javaAssignment;
+
+import java.util.Iterator;
+import java.util.TreeSet;
+
+public class Program20 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		TreeSet<Integer> set =new TreeSet<>();
+		TreeSet<Integer> set1 =new TreeSet<>();
+		set.add(10);
+		set.add(20);
+		set.add(30);
+		set.add(40);
+		set.add(50);
+		System.out.println(set);
+		set1=(TreeSet)set.headSet(7);
+		Iterator iterator;
+		iterator =set1.iterator();
+		
+		while(iterator.hasNext()) {
+			System.out.println(iterator.next()+" ");
+		}
+		
+	}
+
+}
+
+
+Q21....
+package javaAssignment;
+
+import java.util.Queue;
+import java.util.LinkedList;
+
+public class Program21 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Queue<Integer> q1=new LinkedList<>();
+		q1.add(10);
+		q1.add(11);
+		q1.add(12);
+		q1.add(13);
+		q1.add(14);
+		System.out.println(q1);
+		q1.clear();
+		System.out.println(q1);
+		
+
+	}
+
+}
+
+
